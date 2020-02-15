@@ -645,8 +645,6 @@ void SV_Init (void) {
 	sv_dequeuePeriod = Cvar_Get ("sv_dequeuePeriod", "500", CVAR_ARCHIVE );
 	sv_semipurePrefix = Cvar_Get ("sv_semipurePrefix", "", CVAR_ARCHIVE );
 	sv_semipureOfferDownloads = Cvar_Get ("sv_semipureOfferDownloads", "0", CVAR_ARCHIVE );
-        //Init mysql with tremded.
-        sv_mysql_init();
 }
 
 
